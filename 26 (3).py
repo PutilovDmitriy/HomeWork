@@ -1,8 +1,7 @@
 import math
-print("Введите дату")
-d = int(input())
-print("Введите месяц")
-m = int(input())
+
+d = int(input("Введите месяц "))
+m = int(input("Введите месяц "))
 
 mon = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 day = 0

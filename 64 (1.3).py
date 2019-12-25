@@ -1,10 +1,8 @@
 import math
-print("a = ")
-a = float(input())
-print("b = ")
-b = float(input())
-print("c = ")
-c = float(input())
+
+a = float(input("a = "))
+b = float(input("b = "))
+c = float(input("c = "))
 s1 = a * b
 s2 = a * c
 s3 = b * c

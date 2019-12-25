@@ -1,9 +1,8 @@
 import math
+
 print("Введите высоту и радиус")
-print("h = ")
-h = float(input())
-print("r = ")
-r = float(input())
+h = float(input("h = "))
+r = float(input("r = "))
 
 if h <= 0 or r <= 0:
     print("Решений не существует")

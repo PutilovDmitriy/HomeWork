@@ -1,8 +1,7 @@
 import math
-print("Введите угол a")
-a = float(input())
-print("Введите угол b")
-b = float(input())
+
+a = float(input("Введите угол a "))
+b = float(input("Введите угол b "))
 
 if (a + b) < 180:
    c = 180 - a - b

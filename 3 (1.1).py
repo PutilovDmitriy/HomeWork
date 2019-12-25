@@ -1,8 +1,6 @@
 import math
-print("X = ")
-x = math.radians(float(input()))
-print("Y = ")
-y = math.radians(float(input()))
+x = math.radians(float(input("X = ")))
+y = math.radians(float(input("Y = ")))
 print(math.cos(x))
 print(math.sin(y))
 if (math.cos(x) - math.sin(y)) == 0:

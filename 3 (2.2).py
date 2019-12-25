@@ -1,6 +1,6 @@
 import math
-print("Введите X")
-x = float(input())
+
+x = float(input("Введите X "))
 
 if x <= -3:
     print("f(x) = 9")

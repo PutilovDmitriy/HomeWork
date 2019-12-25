@@ -1,10 +1,8 @@
 import math
-print("Участник 1 = ")
-a = float(input())
-print("Участник 2 = ")
-b = float(input())
-print("Участник 3 = ")
-c = float(input())
+
+a = float(input("Участник 1 = "))
+b = float(input("Участник 2 = "))
+c = float(input("Участник 3 = "))
 
 mas = [a, b , c]
 mas = sorted(mas)
